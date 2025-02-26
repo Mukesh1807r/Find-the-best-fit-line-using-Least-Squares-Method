@@ -28,23 +28,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 x=np.array(eval(input()))
 y=np.array(eval(input()))
-
-8,2,11,6,5,4,12,9,6,1
-3,10,3,6,8,12,1,4,9,14
-
-[7]
-0s
 x_mean=np.mean(x)
 y_mean=np.mean(y)
 print(x_mean)
 print(y_mean)
-
-6.4
-7.0
-
-arrow_upwardarrow_downwardsparklinkcommentsettingsdeletemore_vert
-[8]
-0s
 num,denom = 0,0
 for i in range(len(x)):
   num+=((x[i]-x_mean)*(y[i]-y_mean))
@@ -52,27 +39,25 @@ for i in range(len(x)):
 m=num/denom
 b=y_mean-m*x_mean
 print(m,b)
-
--1.1064189189189189 14.08108108108108
-
-[10]
-0s
 y_predicted=m*x+b 
 y_predicted
-
-array([ 5.22972973, 11.86824324,  1.91047297,  7.44256757,  8.54898649,
-        9.65540541,  0.80405405,  4.12331081,  7.44256757, 12.97466216])
-
-[13]
-0s
 plt.scatter(x,y,color='black')
 plt.plot(x,y_predicted,color='black')
 plt.show()
-
 print(m*3+b)
 
 ## Output:
 ![best fit line](sam.png)
+![image](https://github.com/user-attachments/assets/62ea6836-8826-4649-b100-002cde3ccefc)
+![image](https://github.com/user-attachments/assets/93b59c2a-2168-4ff6-860a-34725bece086)
+![image](https://github.com/user-attachments/assets/4ac5e3d1-cf4d-469c-b619-0bf49cb195f7)
+![image](https://github.com/user-attachments/assets/6170b40f-7c70-40de-8a2e-99b90cec3244)
+![image](https://github.com/user-attachments/assets/c43372ff-23ba-4416-a7de-ec1ee82f3f09)
+
+
+
+
+
 
 
 ## Result:
