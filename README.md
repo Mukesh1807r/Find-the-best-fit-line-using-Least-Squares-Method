@@ -49,11 +49,14 @@ print(m*3+b)
 ```
 
 ## Output:
-![best fit line](sam.png)
 ![image](https://github.com/user-attachments/assets/62ea6836-8826-4649-b100-002cde3ccefc)
+
 ![image](https://github.com/user-attachments/assets/93b59c2a-2168-4ff6-860a-34725bece086)
+
 ![image](https://github.com/user-attachments/assets/4ac5e3d1-cf4d-469c-b619-0bf49cb195f7)
+
 ![image](https://github.com/user-attachments/assets/6170b40f-7c70-40de-8a2e-99b90cec3244)
+
 ![image](https://github.com/user-attachments/assets/c43372ff-23ba-4416-a7de-ec1ee82f3f09)
 
 
